@@ -55,4 +55,4 @@ colnames(combined) <- c("Activity", "Subject", cleaned)
 melted <- melt(combined, id = c("Activity", "Subject"), measure.vars = cleaned)
 tidy <- dcast(melted, Activity + Subject ~ variable, mean)
 
-write.table(tidy, "tidyAverages.txt")
+write.table(tidy, "tidymean.txt")

@@ -2,8 +2,8 @@
 This repository contains:
 * Readme.md
 * Codebook.md
-*run_analysis.R
-*tidymean.txt
+* run_analysis.R
+* tidymean.txt
 
 #this file describes the purpose of run_analysis.R and the output files
 
